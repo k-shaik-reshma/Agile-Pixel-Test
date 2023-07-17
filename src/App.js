@@ -4,14 +4,14 @@ import PalomaSVG from "./images/Group 9.svg";
 function App() {
   return (
     <div class="container">
-      <div className="fixed-left">
+      <div className="paloma-logo">
         <div class="paloma-svg">
           <div>
             <img className="paloma-class" src={PalomaSVG} alt="React Logo" />
           </div>
         </div>
       </div>
-      <div class="rotated-text">
+      <div class="paloma-menu">
         <ul>
           <li>
             <a href="#">HEAR</a>
@@ -35,7 +35,7 @@ function App() {
             <a href="#">PERSONAL</a>
           </li>
           <li>
-            <a href="">AID</a>
+            <a href="#">AID</a>
           </li>
         </ul>
       </div>

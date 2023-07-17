@@ -12,7 +12,7 @@ body{
   justify-content: center;
 }
 
-.fixed-left{
+.paloma-logo{
   color: #e8e8e8;
   margin-left: 30px;
 }
@@ -45,7 +45,7 @@ a {
     width: 150px;
   }
 
-  .rotated-text{
+  .paloma-menu{
     align-self: center;
   }
 
