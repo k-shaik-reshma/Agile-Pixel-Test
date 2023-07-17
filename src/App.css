@@ -18,17 +18,82 @@ body{
 }
 
 ul{
-  transform-origin: bottom left;
-  transform: rotate(-90deg);
+  transform-origin: bottom right;
+  transform: rotate(270deg);
   position: fixed;
   padding: 0;
   bottom: 0;
   right: 0;
-  /* margin-right: -300px; */
+  position: absolute;
+  bottom: 380px;
+  list-style: none;
 }
 
 a {
   color: #b5b5b5;
-  font-size: 80px;
+  font-size: 100px;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .paloma-class{
+    width: 150px;
+  }
+
+  .rotated-text{
+    align-self: center;
+  }
+
+  ul {
+    list-style: none;
+    transform: none;
+    position: static;
+    bottom: auto;
+    right: auto;
+  }
+
+  a {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  ul{
+    bottom: 200px;
+  }
+
+  a {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 1440px ) {
+
+  ul{
+    bottom: 250px;
+  }
+
+  a {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .paloma-class{
+    width: 350px;
+  }
+
+  a {
+    font-size: 100px;
+  }
+
+  ul{
+    bottom: 380px;
+  }
 }

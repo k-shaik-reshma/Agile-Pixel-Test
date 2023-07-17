@@ -7,7 +7,7 @@ function App() {
       <div className="fixed-left">
         <div class="paloma-svg">
           <div>
-            <img src={PalomaSVG} alt="React Logo" />
+            <img className="paloma-class" src={PalomaSVG} alt="React Logo" />
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@ function App() {
             <a href="#">PERSONAL</a>
           </li>
           <li>
-            <a href="#">AID</a>
+            <a href="">AID</a>
           </li>
         </ul>
       </div>
